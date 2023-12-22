@@ -1,4 +1,6 @@
 def pyramid_number(n):
+    if n < 0:
+        raise ValueError("Вхідне значення не може бути негативним")
     return n * (n + 1) * (n + 2) // 6
 
 n = 5
