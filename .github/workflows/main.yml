@@ -43,4 +43,4 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: vetal0205/python-app:latest
+        tags: vetal0205/python-piramida-app:latest
